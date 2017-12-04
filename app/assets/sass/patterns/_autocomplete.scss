@@ -1,0 +1,12 @@
+#service-picker-box {
+margin-bottom: 1em;
+z-index: 101;
+position: relative;
+display: inline-block;
+width: 380px;
+}
+
+
+input.autocomplete__hint, input.autocomplete__input {
+	padding:8px;
+}

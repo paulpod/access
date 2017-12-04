@@ -24,12 +24,30 @@ $path: "/public/images/";
 
 @import 'patterns/choices';
 
+@import 'patterns/servicefinder';
+
 
 
 // Add extra styles here, or re-organise the Sass files
 // in whichever way makes most sense to you
 
 
+
+
+/* For responsive a wider viewport 1280 view */
+
+@media (min-width: 1020px) {
+	#content {
+		max-width: 1280px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin: 0 auto;
+	}
+
+	#global-header .header-wrapper {
+        max-width: 1280px;
+    }
+}
 
 
 /* NHS specific styles */
@@ -71,4 +89,4 @@ strong {
 @import 'global-header-override';
 
 
-
+@import 'patterns/autocomplete';
